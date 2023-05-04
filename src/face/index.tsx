@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function face(props: { color: string }): SVGElement {
+export default function face(props: { color: string }): JSX.Element {
   const { color } = props;
   const maskId = `mask${Math.round(Math.random() * 9999999)}`;
   const pathId = `path${Math.round(Math.random() * 9999999)}`;

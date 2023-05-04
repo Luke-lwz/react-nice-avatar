@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function noseLong(): SVGElement {
+export default function noseLong(): JSX.Element {
   return (
     <svg
       style={{

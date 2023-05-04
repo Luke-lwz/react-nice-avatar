@@ -5,16 +5,16 @@ import type { NiceAvatarProps } from "./types"
 
 import { genConfig, defaultOptions } from "./utils";
 
-import Face from "./face";
-import Hair from "./hair";
-import Hat from "./hat";
-import Ear from "./ear";
-import Eyebrow from "./eyebrow";
-import Eye from "./eyes";
-import Glasses from "./glasses";
-import Nose from "./nose";
-import Mouth from "./mouth";
-import Shirt from "./shirt";
+import Face from "./face/index";
+import Hair from "./hair/index";
+import Hat from "./hat/index";
+import Ear from "./ear/index";
+import Eyebrow from "./eyebrow/index";
+import Eye from "./eyes/index";
+import Glasses from "./glasses/index";
+import Nose from "./nose/index";
+import Mouth from "./mouth/index";
+import Shirt from "./shirt/index";
 
 export default class ReactNiceAvatar extends Component<NiceAvatarProps> {
   static propTypes = {
